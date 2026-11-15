@@ -1,0 +1,11 @@
+require('dotenv').config();
+const express=require('express'),cors=require('cors'),path=require('path');
+const {connectDB}=require('./config/db');
+const app=express(); app.use(cors()); app.use(express.json({limit:'5mb'}));
+app.use(express.static(path.join(__dirname,'../frontend')));
+app.use('/api/auth',require('./routes/authRoutes'));
+app.use('/api/quizzes',require('./routes/quizRoutes'));
+app.use('/api/results',require('./routes/resultRoutes'));
+app.get('/api/health',(req,res)=>res.json({ok:true,database:'mysql'}));
+const port=process.env.PORT||5000;
+connectDB().then(()=>app.listen(port,()=>console.log(`Server running at http://localhost:${port}`))).catch(e=>{console.error('Database connection failed:',e.message);process.exit(1);});

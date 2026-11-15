@@ -1,0 +1,1213 @@
+[
+  {
+    "title": "OOPS Question Bank 100",
+    "subject": "OOPS",
+    "description": "100 multiple-choice questions covering OOPS fundamentals and Java OOPS concepts.",
+    "instructions": "Answer the questions carefully. Each question carries 1 mark.",
+    "durationMinutes": 120,
+    "passPercentage": 40,
+    "isPublished": true,
+    "questions": [
+      {
+        "questionText": "What is OOPS?",
+        "options": [
+          "Object-Oriented Programming System",
+          "Operating Operating System",
+          "Open Programming Software",
+          "Online Operating Program"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which concept combines data and methods into one unit?",
+        "options": [
+          "Inheritance",
+          "Encapsulation",
+          "Polymorphism",
+          "Compilation"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which concept allows one class to acquire properties of another class?",
+        "options": [
+          "Abstraction",
+          "Encapsulation",
+          "Inheritance",
+          "Compilation"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which concept allows one method name to have different implementations?",
+        "options": [
+          "Encapsulation",
+          "Inheritance",
+          "Abstraction",
+          "Polymorphism"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which concept hides implementation details?",
+        "options": [
+          "Abstraction",
+          "Inheritance",
+          "Compilation",
+          "Iteration"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a class?",
+        "options": [
+          "An object",
+          "A blueprint for creating objects",
+          "A method",
+          "A variable"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is an object?",
+        "options": [
+          "A blueprint",
+          "A package",
+          "An instance of a class",
+          "A loop"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which are the main pillars of OOPS?",
+        "options": [
+          "HTML, CSS, Java, SQL",
+          "Variables, loops, arrays, functions",
+          "Input, output, processing, storage",
+          "Encapsulation, Inheritance, Polymorphism, Abstraction"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which language supports OOPS?",
+        "options": [
+          "Java",
+          "HTML only",
+          "CSS only",
+          "SQL only"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is data hiding?",
+        "options": [
+          "Deleting data",
+          "Restricting direct access to data",
+          "Printing data",
+          "Copying data"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to declare a class in Java?",
+        "options": [
+          "object",
+          "define",
+          "class",
+          "new"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword creates an object in Java?",
+        "options": [
+          "class",
+          "this",
+          "void",
+          "new"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a method?",
+        "options": [
+          "A block of code that performs a task",
+          "A class name",
+          "An object",
+          "A package"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword refers to the current object?",
+        "options": [
+          "super",
+          "this",
+          "static",
+          "final"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword refers to the parent class?",
+        "options": [
+          "this",
+          "final",
+          "super",
+          "static"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is an instance variable?",
+        "options": [
+          "A method",
+          "A constructor",
+          "A package",
+          "A variable belonging to an object"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword makes a variable belong to the class?",
+        "options": [
+          "static",
+          "private",
+          "this",
+          "new"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which method is the entry point of a Java program?",
+        "options": [
+          "start()",
+          "main()",
+          "run()",
+          "execute()"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a local variable?",
+        "options": [
+          "A class variable",
+          "An object",
+          "A variable declared inside a method or block",
+          "A constructor"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to create an object?",
+        "options": [
+          "+",
+          "==",
+          "=",
+          "new"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a constructor?",
+        "options": [
+          "A special method used to initialize objects",
+          "A variable",
+          "A loop",
+          "An interface"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is the name of a constructor?",
+        "options": [
+          "Any name",
+          "Same as the class name",
+          "main",
+          "new"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Does a constructor have a return type?",
+        "options": [
+          "int",
+          "void",
+          "No return type",
+          "String"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "When is a constructor called?",
+        "options": [
+          "When a loop starts",
+          "When a method ends",
+          "When a package is imported",
+          "When an object is created"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a default constructor?",
+        "options": [
+          "A constructor with no parameters",
+          "A constructor with four parameters",
+          "A private method",
+          "A static method"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can constructors be overloaded?",
+        "options": [
+          "No",
+          "Yes",
+          "Only in interfaces",
+          "Only in abstract classes"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which constructor takes no arguments?",
+        "options": [
+          "Parameterized constructor",
+          "Copy constructor",
+          "No-argument constructor",
+          "Static constructor"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword calls another constructor in the same class?",
+        "options": [
+          "super",
+          "extends",
+          "new",
+          "this()"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword calls the parent class constructor?",
+        "options": [
+          "super()",
+          "this()",
+          "final()",
+          "static()"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can a constructor be inherited?",
+        "options": [
+          "Yes",
+          "No",
+          "Only public constructors",
+          "Only default constructors"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to inherit a class in Java?",
+        "options": [
+          "implements",
+          "inherits",
+          "extends",
+          "super"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is the class being inherited called?",
+        "options": [
+          "Child class",
+          "Derived class",
+          "Subclass",
+          "Parent class"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is a subclass?",
+        "options": [
+          "A class that inherits another class",
+          "A package",
+          "An interface",
+          "A constructor"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which inheritance has only one parent class?",
+        "options": [
+          "Multiple",
+          "Single",
+          "Hybrid",
+          "Hierarchical"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which inheritance has multiple levels?",
+        "options": [
+          "Single",
+          "Multiple",
+          "Multilevel",
+          "Hierarchical"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which inheritance has one parent and multiple child classes?",
+        "options": [
+          "Single",
+          "Multilevel",
+          "Multiple",
+          "Hierarchical"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Does Java support multiple inheritance through classes?",
+        "options": [
+          "No",
+          "Yes",
+          "Always",
+          "Only with constructors"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword prevents inheritance of a class?",
+        "options": [
+          "static",
+          "final",
+          "super",
+          "public"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to implement an interface?",
+        "options": [
+          "extends",
+          "inherits",
+          "implements",
+          "super"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is the IS-A relationship associated with?",
+        "options": [
+          "Encapsulation",
+          "Composition",
+          "Aggregation",
+          "Inheritance"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What does polymorphism mean?",
+        "options": [
+          "Many forms",
+          "One class",
+          "One object",
+          "Data hiding"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is method overloading?",
+        "options": [
+          "Deleting methods",
+          "Same method name with different parameters",
+          "Changing class names",
+          "Hiding variables"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Method overloading is which type of polymorphism?",
+        "options": [
+          "Runtime",
+          "Dynamic",
+          "Compile-time",
+          "None"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is method overriding?",
+        "options": [
+          "Creating a constructor",
+          "Deleting a method",
+          "Changing a variable",
+          "Redefining an inherited method in a subclass"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Method overriding is which type of polymorphism?",
+        "options": [
+          "Runtime",
+          "Compile-time",
+          "Static",
+          "None"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can methods be overloaded by changing only the return type?",
+        "options": [
+          "Yes",
+          "No",
+          "Always",
+          "Only if private"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which annotation is commonly used for method overriding?",
+        "options": [
+          "@Static",
+          "@Final",
+          "@Override",
+          "@Method"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which method is selected during runtime polymorphism?",
+        "options": [
+          "Parent constructor",
+          "Static method",
+          "Private method",
+          "Overridden method based on actual object type"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can static methods be overridden in the normal runtime-polymorphism sense?",
+        "options": [
+          "No, they are hidden rather than overridden",
+          "Yes, always",
+          "Only in interfaces",
+          "Only in constructors"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is dynamic method dispatch?",
+        "options": [
+          "Compiling a program",
+          "Selecting an overridden method at runtime",
+          "Creating a package",
+          "Declaring variables"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which access modifier restricts access to the same class?",
+        "options": [
+          "public",
+          "protected",
+          "private",
+          "static"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which access modifier provides the widest access?",
+        "options": [
+          "private",
+          "protected",
+          "default",
+          "public"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which methods are commonly used to access private variables?",
+        "options": [
+          "Getters and setters",
+          "Constructors only",
+          "Main methods",
+          "Static blocks"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What does a getter method do?",
+        "options": [
+          "Deletes a variable",
+          "Returns a field value",
+          "Creates an object",
+          "Ends a program"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What does a setter method do?",
+        "options": [
+          "Reads a class name",
+          "Deletes a class",
+          "Updates a field value",
+          "Creates an interface"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword declares an abstract class?",
+        "options": [
+          "final",
+          "static",
+          "private",
+          "abstract"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can we directly create an object of an abstract class?",
+        "options": [
+          "No",
+          "Yes",
+          "Always",
+          "Only using static"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to declare an interface?",
+        "options": [
+          "class",
+          "interface",
+          "extends",
+          "new"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can an abstract class contain normal methods?",
+        "options": [
+          "No",
+          "Only constructors",
+          "Yes",
+          "Only static methods"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which concept focuses on exposing essential features and hiding internal details?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Compilation",
+          "Abstraction"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword makes a variable constant after assignment?",
+        "options": [
+          "final",
+          "static",
+          "this",
+          "super"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to import packages?",
+        "options": [
+          "include",
+          "import",
+          "using",
+          "package"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which package is automatically imported in Java?",
+        "options": [
+          "java.util",
+          "java.io",
+          "java.lang",
+          "java.net"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which class is the root of the Java class hierarchy?",
+        "options": [
+          "Main",
+          "System",
+          "String",
+          "Object"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which method converts an object into a string representation?",
+        "options": [
+          "toString()",
+          "equals()",
+          "hashCode()",
+          "getClass()"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which method is commonly used to compare String contents?",
+        "options": [
+          "==",
+          "equals()",
+          "new()",
+          "print()"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which method returns a hash code value?",
+        "options": [
+          "equals()",
+          "toString()",
+          "hashCode()",
+          "length()"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to create a package?",
+        "options": [
+          "import",
+          "class",
+          "interface",
+          "package"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to exit a method and optionally return a value?",
+        "options": [
+          "return",
+          "break",
+          "continue",
+          "exit"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to create an instance of a class?",
+        "options": [
+          "class",
+          "new",
+          "this",
+          "void"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is an exception?",
+        "options": [
+          "A variable",
+          "A class",
+          "An event that disrupts normal program execution",
+          "A package"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which block contains code that may cause an exception?",
+        "options": [
+          "catch",
+          "finally",
+          "throw",
+          "try"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which block handles an exception?",
+        "options": [
+          "catch",
+          "try",
+          "final",
+          "return"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which block normally executes whether an exception occurs or not?",
+        "options": [
+          "try",
+          "finally",
+          "throw",
+          "break"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword explicitly throws an exception?",
+        "options": [
+          "throws",
+          "catch",
+          "throw",
+          "finally"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword declares exceptions that a method may pass to its caller?",
+        "options": [
+          "throw",
+          "try",
+          "catch",
+          "throws"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which is an unchecked exception in Java?",
+        "options": [
+          "NullPointerException",
+          "IOException",
+          "SQLException",
+          "FileNotFoundException"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which exception occurs when dividing an integer by zero?",
+        "options": [
+          "IOException",
+          "ArithmeticException",
+          "NullPointerException",
+          "ClassNotFoundException"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which exception occurs when accessing a method on a null reference?",
+        "options": [
+          "ArithmeticException",
+          "IOException",
+          "NullPointerException",
+          "NumberFormatException"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which keyword is used to manually raise an exception?",
+        "options": [
+          "catch",
+          "try",
+          "throws",
+          "throw"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is association?",
+        "options": [
+          "A relationship between objects",
+          "A constructor",
+          "A loop",
+          "A package"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is aggregation?",
+        "options": [
+          "A type of inheritance",
+          "A weak whole-part relationship",
+          "Method overloading",
+          "Data hiding"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is composition?",
+        "options": [
+          "A type of loop",
+          "A package",
+          "A strong whole-part relationship",
+          "A method"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is coupling?",
+        "options": [
+          "Number of methods",
+          "Object size",
+          "Number of constructors",
+          "Degree of dependency between components"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is cohesion?",
+        "options": [
+          "How closely related the responsibilities of a module are",
+          "Number of objects",
+          "Number of classes",
+          "Memory allocation"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which design principle recommends one reason for a class to change?",
+        "options": [
+          "Open-Closed Principle",
+          "Single Responsibility Principle",
+          "Dependency Inversion Principle",
+          "Liskov Substitution Principle"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What does an immutable object mean?",
+        "options": [
+          "It has no methods",
+          "It has no constructor",
+          "Its state cannot be changed after creation",
+          "It is always static"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which Java class is immutable?",
+        "options": [
+          "StringBuilder",
+          "ArrayList",
+          "StringBuffer",
+          "String"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which class is commonly used to create mutable strings?",
+        "options": [
+          "StringBuilder",
+          "Integer",
+          "Boolean",
+          "Math"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is garbage collection?",
+        "options": [
+          "Compiling source code",
+          "Automatic memory reclamation for unreachable objects",
+          "Deleting Java files",
+          "Sorting objects"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What does instanceof check?",
+        "options": [
+          "Whether a method is static",
+          "Whether a variable is final",
+          "Whether an object is compatible with a given type",
+          "Whether a package exists"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is upcasting?",
+        "options": [
+          "Converting int to char",
+          "Creating a new object",
+          "Converting a String to int",
+          "Treating a subclass object as a superclass reference"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is downcasting?",
+        "options": [
+          "Casting a superclass reference to a subclass type",
+          "Deleting a class",
+          "Creating a constructor",
+          "Calling a static method"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can an interface have static methods in modern Java?",
+        "options": [
+          "No",
+          "Yes",
+          "Only with constructors",
+          "Only if it extends a class"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Can an interface have default methods in modern Java?",
+        "options": [
+          "No",
+          "Only abstract methods",
+          "Yes",
+          "Only constructors"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is constructor overloading?",
+        "options": [
+          "Overriding a constructor",
+          "Making a constructor static",
+          "Calling a constructor recursively",
+          "Defining multiple constructors with different parameter lists"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is an inner class?",
+        "options": [
+          "A class declared inside another class",
+          "A class without methods",
+          "A final method",
+          "A package variable"
+        ],
+        "correctAnswer": 0,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is an enum in Java?",
+        "options": [
+          "A loop",
+          "A fixed set of named constants",
+          "A constructor",
+          "A package"
+        ],
+        "correctAnswer": 1,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "Which relationship represents a HAS-A relationship?",
+        "options": [
+          "Inheritance",
+          "Polymorphism",
+          "Composition or aggregation",
+          "Method overriding"
+        ],
+        "correctAnswer": 2,
+        "marks": 1,
+        "negativeMarks": 0
+      },
+      {
+        "questionText": "What is the main advantage of OOPS?",
+        "options": [
+          "It removes all errors",
+          "It eliminates programming",
+          "It avoids all memory usage",
+          "It improves code reusability, modularity and maintainability"
+        ],
+        "correctAnswer": 3,
+        "marks": 1,
+        "negativeMarks": 0
+      }
+    ]
+  }
+]

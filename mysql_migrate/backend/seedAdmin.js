@@ -1,0 +1,3 @@
+require('dotenv').config();
+const bcrypt=require('bcryptjs'),{connectDB,db}=require('./config/db');
+(async()=>{try{if(!process.env.ADMIN_EMAIL||!process.env.ADMIN_PASSWORD)throw new Error('Set ADMIN_EMAIL and ADMIN_PASSWORD in project-root .env');await connectDB();const email=process.env.ADMIN_EMAIL.trim().toLowerCase(),password=await bcrypt.hash(process.env.ADMIN_PASSWORD,12);await db().query(`INSERT INTO users(name,email,password,role) VALUES(?,?,?,'admin') ON DUPLICATE KEY UPDATE name=VALUES(name),password=VALUES(password),role='admin'`,[process.env.ADMIN_NAME||'College Admin',email,password]);console.log('Admin account ready:',email);}catch(e){console.error(e.message);process.exitCode=1;}finally{try{await db().end();}catch{}}})();
