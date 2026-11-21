@@ -45,6 +45,14 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 .question-palette{flex-wrap:wrap;gap:8px}
 .exam-controls{flex-wrap:wrap;gap:10px}
 
+.exam-lock-overlay{position:fixed;inset:0;z-index:9999;background:rgba(10,12,31,.96);display:grid;place-items:center;padding:20px;color:#fff}
+.exam-lock-card{width:min(520px,100%);text-align:center;background:#171a36;border:1px solid #ef6a7a;border-radius:24px;padding:44px 34px;box-shadow:0 24px 80px rgba(0,0,0,.45)}
+.exam-lock-icon{font-size:52px;margin-bottom:12px}.exam-lock-card h1{font-size:34px;margin:8px 0}.exam-lock-card p{color:#ffd9df;line-height:1.6}.exam-lock-sub{color:#aaaeca!important;font-size:13px;margin-top:18px}
+html.exam-active,html.exam-active body,html.exam-active .question,html.exam-active .option{
+  -webkit-user-select:none!important;
+  user-select:none!important;
+}
+
 /* Online Quiz & Test Portal visual refinement */
 .landing{background:radial-gradient(ellipse at 82% 35%,#45218b 0%,transparent 36%),linear-gradient(125deg,#10132d 0%,#17143b 55%,#281052 100%)}
 .landing-nav{max-width:1540px;height:92px}

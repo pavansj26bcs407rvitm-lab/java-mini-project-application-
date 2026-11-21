@@ -4,11 +4,13 @@ const safe=u=>({id:u.id,_id:u.id,name:u.name,email:u.email,role:u.role});
 const token=u=>jwt.sign({id:u.id},process.env.JWT_SECRET,{expiresIn:'7d'});
 router.post('/signup',async(req,res)=>{try{
  const {name,email,password}=req.body;if(!name||!email||!password)return res.status(400).json({message:'Enter name, email and password.'});
+ const cleanName=String(name).trim();
+ if(!/^[A-Za-z][A-Za-z0-9]*(?:[ '-][A-Za-z][A-Za-z0-9]*)*$/.test(cleanName))return res.status(400).json({message:'Name must start with letters. Numbers may be used only after the letters.'});
  if(String(password).length<6)return res.status(400).json({message:'Password must contain at least 6 characters.'});
  const e=String(email).trim().toLowerCase();const [exists]=await db().query('SELECT id FROM users WHERE email=?',[e]);
  if(exists.length)return res.status(409).json({message:'Email already registered. Please log in.'});
- const [r]=await db().query('INSERT INTO users(name,email,password,role) VALUES(?,?,?,?)',[String(name).trim(),e,await bcrypt.hash(password,12),'student']);
- const u={id:r.insertId,name:String(name).trim(),email:e,role:'student'};res.status(201).json({token:token(u),user:safe(u)});
+ const [r]=await db().query('INSERT INTO users(name,email,password,role) VALUES(?,?,?,?)',[cleanName,e,await bcrypt.hash(password,12),'student']);
+ const u={id:r.insertId,name:cleanName,email:e,role:'student'};res.status(201).json({token:token(u),user:safe(u)});
  }catch(e){res.status(500).json({message:e.message});}});
 router.post('/login',async(req,res)=>{try{
  const [rows]=await db().query('SELECT * FROM users WHERE email=?',[String(req.body.email||'').trim().toLowerCase()]);const u=rows[0];
